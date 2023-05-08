@@ -21,6 +21,7 @@ Feel free to access the link to try it out yourself at https://arti-summarizer.v
 - Vite
 - React
 - JavaScript
+- Redux
 
 ## Insights and Takeaways
 During the development of this project, several insights and takeaways were gained that can be useful for future projects.
