@@ -26,7 +26,6 @@ const Demo = () => {
 	}, []);
 
 	const handleSubmit = async (e) => {
-		// prevents the website from loading
 		e.preventDefault();
 
 		const existingArticle = allArticles.find(
@@ -81,7 +80,7 @@ const Demo = () => {
 						onChange={(e) => setArticle({ ...article, url: e.target.value })}
 						onKeyDown={handleKeyDown}
 						required
-						className="url_input peer"
+						className="url_input peer" // When you need to style an element based on the state of a sibling element, mark the sibling with the peer class, and use peer-* modifiers to style the target element
 					/>
 					<button
 						type="submit"
@@ -120,7 +119,6 @@ const Demo = () => {
 					<img src={loader} alt="loader" className="w-20 h-20 object-contain" />
 				) : error ? (
 					<p className="font-inter font-bold text-black text-center">
-						Well, that wasn't supposed to happen...
 						<br />
 						<span className="font-satoshi font-normal text-gray-700">
 							{error?.data?.error}

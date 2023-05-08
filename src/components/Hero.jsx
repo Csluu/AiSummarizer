@@ -10,10 +10,9 @@ const Hero = () => {
 
 				<button
 					type="button"
-					// LINK TO PROJECT ON GITHUB
-					// onClick={() =>
-					// 	window.open("https://github.com/csluu/Summize", "_blank")
-					// }
+					onClick={() =>
+						window.open("https://github.com/Csluu/AiSummarizer", "_blank")
+					}
 					className="black_btn"
 				>
 					GitHub
@@ -24,10 +23,11 @@ const Hero = () => {
 				Summarize Articles with <br className="max-md:hidden" />
 				<span className="orange_gradient ">OpenAI GPT-4</span>
 			</h1>
-            {/* change the description later */}
+			{/* change the description later */}
 			<h2 className="desc">
-				Simplify your reading with Summize, an open-source article summarizer
-				that transforms lengthy articles into clear and concise summaries
+				Simplify your reading with ArtiSummarizer, an open-source article
+				summarizer that transforms lengthy articles into clear and concise
+				summaries
 			</h2>
 		</header>
 	);
