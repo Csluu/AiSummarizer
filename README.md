@@ -8,8 +8,11 @@ With ArtiSummarizer, users can simply input the URL of an article and the tool w
 - Automatic persistence of summarized articles to local storage
 - View history of past summarized articles
 
-## Demonstration 
-https://arti-summarizer.vercel.app/
+## Preview 
+
+![Summary](https://user-images.githubusercontent.com/105900114/236741884-10dbb138-1834-4108-8ba4-4694b702a315.png)
+
+Feel free to access the link to try it out yourself at https://arti-summarizer.vercel.app/
 
 ## Technologies used
 - CSS
@@ -30,4 +33,4 @@ In conclusion, ArtiSummarizer is a powerful tool that utilizes chatGPT, an advan
 
 During the development of this project, I gained valuable insights into using Redux to manage state in a complex application and using Vite to speed up the development process. These insights and takeaways can be helpful for other developers working on similar projects.
 
-If you have any questions or feedback, please don't hesitate to reach out. Thank you for taking the time to read this README file and for considering my Kanban board project!
+If you have any questions or feedback, please don't hesitate to reach out. Thank you for taking the time to read this README file and for considering my project!
