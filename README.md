@@ -1,5 +1,5 @@
-# ArticleSum
-ArticleSum is a project that utilizes the power of chatGPT, an advanced language model, to generate accurate and concise summaries of articles. The tool is designed to help users quickly comprehend the main ideas of an article without having to read through the entire text.
+# Artisummarizer
+Artisummarizer is a project that utilizes the power of chatGPT, an advanced language model, to generate accurate and concise summaries of articles. The tool is designed to help users quickly comprehend the main ideas of an article without having to read through the entire text.
 
 With ArtiSummarizer, users can simply input the URL of an article and the tool will automatically generate a summary. The summary is generated based on the key topics, phrases, and ideas present in the article, and is optimized for clarity and brevity.
 
